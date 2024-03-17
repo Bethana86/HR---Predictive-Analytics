@@ -134,12 +134,12 @@ if not st.session_state['submitted']:
          st.title('HR - PREDICTIVE ANALYTICS')
         coll1,coll2,coll3 = st.columns([0.3,0.4,0.2])
         with coll2:  
-             st.subheader("The ultimate platform for appraising your employee's performance")     
+             st.subheader("HR Predictive Analytics revolutionizes workforce management by harnessing data to forecast trends like employee attrition. With cutting-edge tools, HR professionals can now dynamically view a 'Probability of Attrition Score' through intuitive dashboards. These dashboards not only offer live insights but also enable decision-makers to devise proactive strategies, enhancing retention and overall organizational health. This forward-looking approach empowers companies to navigate potential challenges with precision, ensuring a robust and engaged workforce.")     
         col1,col2,col3 = st.columns([0.4,0.4,0.2])
         
         
         st.markdown("----", unsafe_allow_html=True)
-        submitted = st.button("Here We Go!") 
+        submitted = st.button("ENTER") 
         if submitted:
             st.session_state['submitted'] = True
             st.experimental_rerun()  # Rerun the app to update the state
