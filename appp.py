@@ -134,7 +134,7 @@ if not st.session_state['submitted']:
          st.title('HR - PREDICTIVE ANALYTICS')
         coll1,coll2,coll3 = st.columns([0.3,0.4,0.2])
         with coll2:  
-             st.subheader("The ultimate environment for appraising your staff's performance")     
+             st.subheader("The ultimate platform for appraising your employee's performance")     
         col1,col2,col3 = st.columns([0.4,0.4,0.2])
         with col2:
             
