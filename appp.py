@@ -134,7 +134,7 @@ if not st.session_state['submitted']:
          st.title('HR - PREDICTIVE ANALYTICS')
         coll1,coll2,coll3 = st.columns([0.3,0.4,0.2])
         with coll2:  
-             st.subheader("HR Predictive Analytics revolutionizes workforce management by harnessing data to forecast trends like employee attrition. With cutting-edge tools, HR professionals can now dynamically view a 'Probability of Attrition Score' through intuitive dashboards. These dashboards not only offer live insights but also enable decision-makers to devise proactive strategies, enhancing retention and overall organizational health. This forward-looking approach empowers companies to navigate potential challenges with precision, ensuring a robust and engaged workforce.")     
+             st.subheader("HR Predictive Analytics revolutionizes workforce management by harnessing data to forecast trends like employee attrition.")     
         col1,col2,col3 = st.columns([0.4,0.4,0.2])
         
         
